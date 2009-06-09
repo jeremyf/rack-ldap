@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rack-ldap"
-    gem.summary = %Q{TODO}
+    gem.summary = %Q{A Rack middleware for LDAP authentication}
     gem.email = "jeremy.n.friesen@gmail.com"
     gem.homepage = "http://github.com/jeremyf/rack-ldap"
     gem.authors = ["Jeremy Friesen"]
@@ -50,6 +50,7 @@ Rake::RDocTask.new do |rdoc|
 
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "rack-ldap #{version}"
+  rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
