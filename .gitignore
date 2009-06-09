@@ -3,3 +3,4 @@
 coverage
 rdoc
 pkg
+examples/ldap.yml
