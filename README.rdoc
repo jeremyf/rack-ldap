@@ -1,0 +1,7 @@
+= rack-ldap
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Jeremy Friesen. See LICENSE for details.
